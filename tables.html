@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLE</title>
+    <style>
+        table{
+            width: 100%;
+            border-collapse : collapse;
+            text-align:center;
+            color:aqua ;
+        }
+        td,th{
+            border: 1px, solid black;
+            padding: 10px;
+        }
+        tr:nth-child(even){
+            background-color: #313131;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col span="2" style="background-color: cadetblue;"/>
+        </colgroup>
+        <tr>
+            <th colspan="2">Country</th>
+            <th>Country Code</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>India</td>
+            <td>IN/td>
+            <td>india@gmail.com</td>
+        </tr>
+        <tr>
+            <td>India</td>
+            <td>IN/td>
+            <td>india@gmail.com</td>
+        </tr>
+        <tr>
+            <td>India</td>
+            <td>IN/td>
+            <td>india@gmail.com</td>
+        </tr>
+    </table>
+</body>
+</html>
+
+<!--study about <tfoot>-->

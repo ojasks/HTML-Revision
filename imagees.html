@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #414141;
+        }
+    </style>
+</head>
+<body>
+    <img src="https://images.pexels.com/photos/2071882/pexels-photo-2071882.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="No Image" width="400px">
+    <img src="./meow.png" alt="No Image" width="400px">
+    <picture>
+        <source media="(min-width: 650px)"  srcset="./meow.png"/>
+        <source media="(min-width: 450px)"  srcset="./meow.png"/>
+        <img src="./meow.png" width="400px">
+    </picture>
+    <img src="./moo.png" usemap="#image-map" width="400px" alt="NO image">
+    <map name="image-map">
+        <area onclick="one()" alt="" title="" href="" coords="1262,529,2073,997" shape="rect">
+        <area onclick="two()" alt="" title="" href="" coords="1079,1109,217" shape="circle">
+    </map>
+</body>
+<script>
+    //script me javascript ke codes likh skte hai
+    function one(){
+        alert("this is evolved form")
+    }
+    function two(){
+        alert("this is the base form")
+    }
+
+</script>
+</html>
+<!-- image map generator-->
+
+<!-- you can choose based on the area you click what you want it to do -->
+
+<!-- //dont  copy image 
+//copy image address 
+./ means current folder 
+agar ek folder peeche jaan ho toh ./../
+aur ek folder aage jaan ho toh uska naam likh dijiye
+spaces not good in folder or file name on server-->
+
+<!-- difference between image and picture tag 
+picture tag aslo mentions the source -->
