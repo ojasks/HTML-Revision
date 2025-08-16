@@ -1,6 +1,7 @@
-# HTML-Revision
+# 📘 HTML-Revision Repository
 
-# 📘 HTML Revision Repository
+<img width="1536" height="1024" alt="ChatGPT Image Aug 16, 2025, 04_31_33 PM" src="https://github.com/user-attachments/assets/57cbb170-da4d-4aa0-8fa5-88e074f51549" />
+
 
 A comprehensive and structured collection of HTML practice files designed to reinforce core web development fundamentals. This repository is ideal for beginners revising concepts or developers seeking quick reference examples.
 
